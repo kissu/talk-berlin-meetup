@@ -31,7 +31,7 @@ Soyons tous ensemble de Mesh !
 
 ---
 layout: cover
-image: ./images/bird.svg
+image: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
 ---
 
 ## Comment en suis-je arrivé là ?
@@ -48,6 +48,22 @@ besoin de fraîcheur et d'expression
 
 
 ---
-layout: cover
-image: ./images/bird.svg
+layout: two-cols
+image: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
+
 ---
+
+<img src="/images/game1.png" alt="Netlify game" class="pt-34 pr-4" />
+
+[Petit jeu Wall-e codé par Sarah Drasner](https://codepen.io/sdras/full/YZBGNp/)
+::right::
+
+<img src="/images/game2.png" alt="Netlify actual game progress" class="w-3/4" />
+
+<!--
+des couleurs bien cools donc
+
+on peut aussi créer un jeu sympa, comme ici sur Netlify lors d'un build pour passer le temps
+
+ou créer toute sorte d'animation avec Greensock, pour faire patienter les utilisateurs
+-->
