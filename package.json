@@ -11,6 +11,6 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "@vueuse/motion": "2.0.0-beta.12",
-    "playwright-chromium": "^1.22.2"
+    "playwright-chromium": "1.15.0"
   }
 }
