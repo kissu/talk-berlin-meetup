@@ -31,7 +31,7 @@ Soyons tous ensemble de Mesh !
 
 ---
 layout: cover
-image: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
+background: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
 ---
 
 ## Comment en suis-je arrivé là ?
@@ -48,17 +48,17 @@ besoin de fraîcheur et d'expression
 
 
 ---
-layout: two-cols
-image: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
-
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-<img src="/images/game1.png" alt="Netlify game" class="pt-34 pr-4" />
+<div class="flex">
+  <img src="/images/game2.png" alt="Netlify actual game progress" class="w-auto h-96" />
 
-[Petit jeu Wall-e codé par Sarah Drasner](https://codepen.io/sdras/full/YZBGNp/)
-::right::
+  <img src="/images/game1.png" alt="Netlify game" class="pt-34 pl-18 h-96" />
+</div>
 
-<img src="/images/game2.png" alt="Netlify actual game progress" class="w-3/4" />
+[Petit jeu wall-e codé par Sarah Drasner](https://codepen.io/sdras/full/YZBGNp/)
 
 <!--
 des couleurs bien cools donc
@@ -66,4 +66,205 @@ des couleurs bien cools donc
 on peut aussi créer un jeu sympa, comme ici sur Netlify lors d'un build pour passer le temps
 
 ou créer toute sorte d'animation avec Greensock, pour faire patienter les utilisateurs
+
+c'est astucieux et les gens supportent bien mieux l'attente ainsi
+
+l'endgame serait tout de même d'avoir un peu de 3D!
 -->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+## Pour de la 3D, WebGL donc ?
+
+<div class="text-left pt-8">
+<v-clicks>
+
+- une API qui permet de render des polygones (triangles) très rapidement grâce à la carte graphique
+- millions de points générés en quelques millisecondes
+- le cumul de tous ces points formera l'image
+- standard quand il s'agit de Web
+- la documentation sera toute relative par contre... 😭
+- une solution simple pour créer un truc fun ?
+
+</v-clicks>
+</div>
+
+<!--
+cela semble être une bonne idée en soit, pour les raisons suivantes
+
+pas très fun et obligera d'apprendre le fonctionnement interne des choses très tôt
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+## ThreeJS pour éviter ceci surtout !
+
+<br />
+<br />
+<div class="flex">
+  <img src="https://user-images.githubusercontent.com/5133074/171332004-9c0f5f7f-271e-47cc-a80e-0e7f8e6b7689.png" alt="Triangle render en WebGL" class="h-84" />
+  <img src="https://user-images.githubusercontent.com/5133074/171332757-99a29512-f29a-4b5f-b135-03d74204477d.gif" alt="Triangle render en WebGL" class="h-84 pl-8" />
+</div>
+
+120 lignes de WebGL juste pour un triangle donc ? 🤔
+
+<!--
+c'est cool et sympa mais 3h pour cela ca fait beaucoup
+
+pas très fun et obligera d'apprendre le fonctionnement interne des choses très tôt
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171333288-d0ec9368-58c3-4799-a1f3-a44ab153e118.svg
+---
+
+## Quelques exemples de ce qui est faisable avec ThreeJS
+
+<br/>
+
+<div class="text-left pl-36">
+
+[Site de Nuxt, framework VueJS](https://v3.nuxtjs.org/)
+
+[Petite animation cool pour son portfolio](https://www.craftz.dog/)
+
+[Render réaliste d'une maison](https://twitter.com/rocha_ycaro/status/1529205485731299335/photo/1)
+
+[Customization à la volée d'objets](https://infinitemirai.files.wordpress.com/2015/08/vlcsnap-00025.png)
+
+[Pinbal game basé sur OUIGO](http://letsplay.ouigo.com/)
+
+[Le CV interactif de Bruno Simon](https://bruno-simon.com/)
+
+Site pour custom ses chaussures Nike
+
+</div>
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+## ThreeJS nous permet ceci
+
+<div class="text-left pt-8">
+<v-clicks>
+
+- beaucoup de choses directement prêtes à l'emploi
+- pas besoin d'être un expert en 3D pour s'amuser
+- éviter d'avoir à écrire 300 lignes de code pour quelque chose de simple
+- une documentation et des exemples SUPER complets
+
+</v-clicks>
+</div>
+
+<!--
+des formes (simples ou moins), des lumières, des caméras, des matériaux etc...
+
+permet d'åvoir du fun rapidement
+
+passer 3 jours à coder une fonction pour pouvoir faire une rotation dans l'espace c'est pas le plus fun
+
+la plupart des principes requirènt des connaissances mathématiques sur les inversions de matrices etc, pas le + friendly non plus quand on doit le faire à la mano
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+## Des pré-requis pour commencer avec ThreeJS?
+
+<div class="text-left pt-8">
+<v-clicks>
+
+- les bases en JavaScript
+- comprendre quelques principes en 3D (représentation spatiale, aliasing, optimisation etc...)
+- les bases de la trigonométrie peuvent être utiles (`sin`, `cos`)
+- des connaissances en gaming + hardware en _nice to have_
+
+</v-clicks>
+</div>
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+## Que nous faut-il pour avoir un visuel ?
+
+<div class="text-left pt-8">
+<v-clicks>
+
+- une scène
+- une [géométrie](https://www.mathsisfun.com/geometry/images/vertex-edge-face.svg) (tous les vertices + toutes les faces)
+- un matériau sera aussi nécessaire
+- la combo de `géometrie + matériau` nous donnera la surface
+- (parfois) une lumière pour éclairer tout cela
+- une caméra simple
+- on call la méthode `render` (du renderer)
+
+</v-clicks>
+</div>
+
+<!--
+scène -> espace virtuel où on va mettre tous nos éléments
+
+géometrie + matériau: ø
+
+combo: surface se dit d'ailleurs _Mesh_ en anglais
+
+lumière: le besoin de lumière dépend du matériau utilisé, elle n'est pas toujours obligatoire
+
+camera: il y en a une dizaine de différentes, avec chacune ses spécificités, en plus du champ de vision, l'angle etc
+
+on fait attention à que tout soit dans le champ de vision de la caméra
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171349616-5d84267a-0eef-4781-9ba6-9eff6172ad6d.svg
+---
+
+<h2 class="absolute right-24">Du concret SVP ! 🙏🏻</h2>
+
+<!--
+je vais vous montrer 3 renders maintenant
+
+regardons comment avoir un objet simple tout d'abord (cône)
+
+ensuite une petite galaxie bien sympa
+
+bon, pouvoir coder un petit cube c'est bien, mais comment on render quelque chose de + complexe ?
+
+découvrons ensemble Blender
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+## Resources intéressantes pour approfondir le sujet
+
+<div class="text-left pt-8">
+
+- Bruno Simon avec [three.js journey](https://threejs-journey.com/)
+- Andrew Price aka "Blender Guru" avec [sa playlist Youtube](https://www.youtube.com/watch?v=OqMLfMXVhhI&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=16)
+- Roman Klčo aka Polygon Runway avec [ses cours](https://polygonrunway.com/courses)
+
+</div>
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171355214-f6e54836-6bd5-4c4e-8216-fe4098dea7b9.svg
+---
+
+## Who am I ?
