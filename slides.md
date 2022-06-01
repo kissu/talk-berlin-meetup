@@ -25,8 +25,29 @@ colorSchema: 'dark'
 
 # Creative coding 🎨
 
-Faisons des trucs colorés avec tous ces pixels !
+Soyons tous ensemble de Mesh !
+
+<!-- This is a page note btw -->
 
 ---
+layout: cover
+image: ./images/bird.svg
+---
 
-what do you think?
+## Comment en suis-je arrivé là ?
+
+<!--
+commencé à coder il y a de cela 4ans environ, fullstack et maintenant front
+
+avant de coder en pro, j'ai commencé avec pas mal de CSS, avec 0 Bootstrap donc
+
+avec le temps, on se lasse de faire: call HTTP à une API, itérer sur une liste d'éléments, on loop dessus niveau couleurs
+
+besoin de fraîcheur et d'expression
+-->
+
+
+---
+layout: cover
+image: ./images/bird.svg
+---
