@@ -8,7 +8,7 @@ theme: seriph
 download: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /images/intro.svg
+background: https://user-images.githubusercontent.com/5133074/171389401-91d93a9c-b483-4479-ba1d-d7b85f80cc6f.svg
 
 drawings:
   enabled: dev
@@ -94,8 +94,6 @@ background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d
 
 <!--
 cela semble être une bonne idée en soit, pour les raisons suivantes
-
-pas très fun et obligera d'apprendre le fonctionnement interne des choses très tôt
 -->
 
 ---
@@ -258,13 +256,68 @@ background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500
 
 - Bruno Simon avec [three.js journey](https://threejs-journey.com/)
 - Andrew Price aka "Blender Guru" avec [sa playlist Youtube](https://www.youtube.com/watch?v=OqMLfMXVhhI&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=16)
-- Roman Klčo aka Polygon Runway avec [ses cours](https://polygonrunway.com/courses)
+- Roman Klčo aka Polygon Runway avec [ses cours](https://polygonrunway.com/courses) + [chaîne YouTube](https://www.youtube.com/c/PolygonRunway/featured)
 
 </div>
 
 ---
 layout: cover
+preload: false
 background: https://user-images.githubusercontent.com/5133074/171355214-f6e54836-6bd5-4c4e-8216-fe4098dea7b9.svg
 ---
 
-## Who am I ?
+<div class="absolute top-12 left-14 text-left">
+  <h2 class="!text-white underline decoration-wavy decoration-1 underline-offset-4 underline-grey-100">Qui suis-je ?</h2>
+
+  <h3 class="mt-2">Konstantin BIFERT ~ <a href="https://twitter.com/kissu_io" target="_blank" class="text-transparent bg-clip-text bg-gradient-to-tl from-blue-400 to-teal-500 font-bold" alt="konstantin's twitter">@kissu_io</a> (twitter)
+</h3>
+</div>
+
+<div class="flex mt-4">
+  <img v-motion :initial="{ x: -200, y: 0, scale: 1, rotate: 0 }" :enter="final"
+    class="h-64 w-48 rounded-lg" src="https://user-images.githubusercontent.com/5133074/171390829-56ff3280-c326-4fd8-ae6b-bed1bdd7238b.jpg"
+    alt="photo of konstantin" />
+
+  <section class="ml-6 text-left">
+    <p class="!m-0">
+      <logos-vue/> Consultant frontend <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a> (boîte 🇳🇱)
+    </p>
+    <p class="my-2">
+      <logos-nuxt-icon class="inline h-6" />
+      <a href="https://nuxtjs.org/teams" class="ml-2">Ambassadeur Nuxt.js</a>
+    </p>
+    <p class="my-2">
+      <logos-stackoverflow-icon class="inline mr-2" />
+      <a href="https://stackoverflow.com/users/8816585/kissu">Helper au quotidien sur Stackoverflow</a>
+      <p>🎤  Créateur de contenu + speaker</p>
+      <p>✨ Je kiffe le gaming, les mécas, la tech et le DIY</p>
+      <p><logos-twitter class="h-4" /> Je communique sur Vue, la perf et la 3D !</p>
+    </p>
+  </section>
+</div>
+
+<script setup lang="ts">
+  const final = {
+    x: 0,
+    y: 0,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      damping: 10,
+      stiffness: 20,
+      mass: 2
+    }
+  }
+  const melon = {
+    x: 50,
+    y: -50,
+    rotate: 0,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      damping: 10,
+      stiffness: 20,
+      mass: 2
+    }
+  }
+</script>
