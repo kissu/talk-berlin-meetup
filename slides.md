@@ -8,7 +8,7 @@ theme: seriph
 download: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://user-images.githubusercontent.com/5133074/171389401-91d93a9c-b483-4479-ba1d-d7b85f80cc6f.svg
+background: https://user-images.githubusercontent.com/5133074/187325015-d1a5592c-a787-416a-a309-c2acb8b04272.jpg
 
 drawings:
   enabled: dev
@@ -25,16 +25,14 @@ colorSchema: 'dark'
 
 # Creative coding 🎨
 
-Soyons tous ensemble de Mesh !
+Let's devconf 22
 
 <!-- This is a page note btw -->
 
 ---
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171328387-5991c10c-b383-4307-aa7a-369e3ff79173.svg
+layout: image
+image: https://user-images.githubusercontent.com/5133074/187325041-6a6228ea-b6c1-473c-a893-acb2dd877241.png
 ---
-
-## Comment en suis-je arrivé là ?
 
 <!--
 commencé à coder il y a de cela 4ans environ, fullstack et maintenant front
