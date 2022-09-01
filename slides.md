@@ -10,6 +10,8 @@ download: true
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://user-images.githubusercontent.com/5133074/187325015-d1a5592c-a787-416a-a309-c2acb8b04272.jpg
 
+# photo from: https://unsplash.com/photos/qhhp1LwvPSI
+
 drawings:
   enabled: dev
 # Photo by <a href="https://unsplash.com/@heytowner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JOHN TOWNER</a> on <a href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -25,7 +27,7 @@ colorSchema: 'dark'
 
 # Creative coding 🎨
 
-Let's devconf 22
+Let's mesh everything together!
 
 <!-- This is a page note btw -->
 
@@ -34,14 +36,10 @@ layout: image
 image: https://user-images.githubusercontent.com/5133074/187325041-6a6228ea-b6c1-473c-a893-acb2dd877241.png
 ---
 
+<span></span>
+
 <!--
-commencé à coder il y a de cela 4ans environ, fullstack et maintenant front
-
-avant de coder en pro, j'ai commencé avec pas mal de CSS, avec 0 Bootstrap donc
-
-avec le temps, on se lasse de faire: call HTTP à une API, itérer sur une liste d'éléments, on loop dessus niveau couleurs
-
-besoin de fraîcheur et d'expression
+thank you for to our sponsors who made this event possible
 -->
 
 
@@ -50,24 +48,16 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-<div class="flex">
-  <img src="/images/game2.png" alt="Netlify actual game progress" class="w-auto h-96" />
+<div class="flex flex-col">
+  <img src="https://user-images.githubusercontent.com/5133074/187825222-d23a0456-a981-4461-a7a9-7972a8881036.png" alt="super boring CRM website" class="w-auto h-96" />
 
-  <img src="/images/game1.png" alt="Netlify game" class="pt-34 pl-18 h-96" />
+  <p>Damn exciting UI 🤤</p>
 </div>
 
-[Petit jeu wall-e codé par Sarah Drasner](https://codepen.io/sdras/full/YZBGNp/)
-
 <!--
-des couleurs bien cools donc
+website quite boring, tables tables and tables
 
-on peut aussi créer un jeu sympa, comme ici sur Netlify lors d'un build pour passer le temps
-
-ou créer toute sorte d'animation avec Greensock, pour faire patienter les utilisateurs
-
-c'est astucieux et les gens supportent bien mieux l'attente ainsi
-
-l'endgame serait tout de même d'avoir un peu de 3D!
+pharma but still, could be better
 -->
 
 ---
@@ -75,23 +65,35 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
 ---
 
-## Pour de la 3D, WebGL donc ?
+## What do we have nowadays to make something more fancy?
 
-<div class="text-left pt-8">
+<div class="pt-8 text-left">
 <v-clicks>
 
-- une API qui permet de render des polygones (triangles) très rapidement grâce à la carte graphique
-- millions de points générés en quelques millisecondes
-- le cumul de tous ces points formera l'image
-- standard quand il s'agit de Web
-- la documentation sera toute relative par contre... 😭
-- une solution simple pour créer un truc fun ?
+- CSS grid coming with masonry out of the box + subgrid
+- CSS being MORE powerful now ✨ + brand new `:has` (less need for JS)
+- browser interop? yes please!
+- simple yet powerful `accent-color` property
+- color functions, get some insights/help 👉 https://colorjs.io/
+- State of CSS @GoogleIO 🚀 [here](https://youtu.be/Xy9ZXRRgpLk) 🚀
 
 </v-clicks>
 </div>
 
 <!--
-cela semble être une bonne idée en soit, pour les raisons suivantes
+masonry: no need for ugly JS solutions, we have it baked in now
+
+CSS is more friendly to use everyday, more powerful thanks to some baked-in conditionals, cascade layers + container queries
+
+:has bring a whole new world to CSS, enabling some new ways for selection
+
+support getting better for a lot of browsers for all the main CSS features
+
+simple yet brings more native customization in a simple and non-hacky way
+
+COLORS are coming, more VIVID colors!!
+
+color spaces can get quite complex with colors spaces but it enables some totally unseen colors on supported monitors (Apple Display XDR etc...)
 -->
 
 ---
@@ -99,76 +101,215 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-## ThreeJS pour éviter ceci surtout !
-
-<br />
-<br />
-<div class="flex">
-  <img src="https://user-images.githubusercontent.com/5133074/171332004-9c0f5f7f-271e-47cc-a80e-0e7f8e6b7689.png" alt="Triangle render en WebGL" class="h-84" />
-  <img src="https://user-images.githubusercontent.com/5133074/171332757-99a29512-f29a-4b5f-b135-03d74204477d.gif" alt="Triangle render en WebGL" class="h-84 pl-8" />
+<div class="flex justify-center">
+  <img src="https://user-images.githubusercontent.com/5133074/187829017-592015c4-a394-4b03-a01f-3df7c7d17f4b.png" alt="nice gradients" class="w-auto h-96" />
 </div>
 
-120 lignes de WebGL juste pour un triangle donc ? 🤔
+<!-- damn, look at those gradients -->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<div class="flex justify-center">
+  <img src="https://user-images.githubusercontent.com/5133074/187829321-33abd9c4-e4d1-4f17-99da-85973b2c1ca8.png" alt="nice gradients" class="w-auto h-96" />
+</div>
+
+<!-- - new fonts with gradients? we have that one too -->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<div class="flex justify-center">
+  <img src="https://user-images.githubusercontent.com/5133074/187903002-2402f5d4-7e9c-4b7a-b090-c0d09d0878a4.png" alt="new viewport units" class="w-auto h-96" />
+</div>
+
+<!-- no more menu hacks, we have viewport units for those cases too now -->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<div class="flex justify-center">
+  <video width="640" height="240" controls autoplay loop muted>
+    <source src="https://storage.googleapis.com/web-dev-uploads/video/CZmpGM8Eo1dFe0KNhEO9SGO8Ok23/hgnJfPFUbGlucFegEEtl.mp4" type="video/mp4">
+  </video>
+</div>
 
 <!--
-c'est cool et sympa mais 3h pour cela ca fait beaucoup
+native transition API, still in the works
 
-pas très fun et obligera d'apprendre le fonctionnement interne des choses très tôt
+MPA, mobile like experience, 0 JS
+
+coming-in hot from the browser, exact syntax/API still in discussion
 -->
 
 ---
 layout: cover
-background: https://user-images.githubusercontent.com/5133074/171333288-d0ec9368-58c3-4799-a1f3-a44ab153e118.svg
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-## Quelques exemples de ce qui est faisable avec ThreeJS
+<div class="flex justify-center">
+  <img src="/dribble.gif" alt="a GIF showing how to get some inspiration on Dribbble" class="w-auto h-96" />
+</div>
 
+<!--
+exciting? now please refactor the CRM view with something more fancy
+
+get some inspiration on Dribble
+
+best time to be a webdev nowadays haha 💖💖💖
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<h2><a href="https://codepen.io/jtrancozo/full/MeBgxv">Want some cuteness</a>?</h2>
 <br/>
+<div class="flex justify-center">
+  <img src="https://user-images.githubusercontent.com/5133074/187905191-66cfd4b6-2992-4d38-8700-1a86e6d02640.gif" alt="super nice coffee machine done in SVG" class="w-auto h-96" />
+</div>
+
+<!--
+don't forget to give Codepen a ride for some SVG animations
+
+cute coffee, super lightweight and can bring joy/help people wait/etc
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<h2><a href="https://codepen.io/sdras/full/YNpaoJ">Interactivity</a>?</h2>
+<br/>
+<div class="flex justify-center">
+  <img src="https://user-images.githubusercontent.com/5133074/187904102-c4986cd2-351e-4c28-b1a9-25e6b7db1d20.gif" alt="interactive SVG by Sarah Drasner" class="w-auto h-96" />
+</div>
+
+<!-- this is an app done in VueJS, SVG + interactivity (you can even make it accessible) -->
+
+---
+layout: two-cols
+image: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<h2>Any faster approach for that?</h2>
+
+<p><a href="https://greensock.com">GSAP</a> is here to save your day! 💪</p>
+
+<div class="flex justify-start mt-4">
+  <img src="https://user-images.githubusercontent.com/5133074/187834653-ebb826c2-c667-4476-a462-c721f6ba92ec.png" alt="logo of greensock" class="w-auto h-72" />
+</div>
+
+<h3 class="mt-4">Need something more lightweight?</h3>
+<p><a href="https://animejs.com">anime.js</a> is a good one, 100% free</p>
+<p><a href="https://motion.dev/">Motion One</a> by Matt Perry (Framer, Popmotion)</p>
+
+::right::
+
+<!-- <p><a href="https://ironvelvet.studio/works">Iron velvet</a></p> -->
+
+<div class="flex justify-center mt-24">
+  <img src="/iron_velvet.gif" alt="Iron's velvet studio website" class="w-auto h-72" />
+</div>
+
+<!--
+GSAP is amazing, the showcase is dope! just check Iron's velvet studio website
+
+McDonalds or another company, send to galaxy needed to find a burger
+
+Motion One is 4kB or so, but it also uses Web Animation API so it can run if your main thread is blocked to preserve some smooth animations
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+# I want my 3D now! 🤩🤩
+
+<!--
+for 3D on the Web, we use WebGL, it's fast because it's using the GPU so that our users don't wait too long
+
+we can generate millions of polygons in just a matter of milliseconds
+
+we will then be able to get a nice image + it's a Web standard
+
+we have some documentation, a standard etc...let's see how amazing it is!
+
+let's see how to make a nice cube thanks to WebGL
+
+[presentation of the hardcore codebase 😱]
+
+not that amazing huh? not gonna write that kind of code daily unfortunately 😪
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<h2 class="mb-8 !text-4xl">Why would somebody use ThreeJS? ✨</h2>
+
+<div class="text-left">
+<v-clicks>
+
+- a lot is available out of the box
+- no need to be an expert in 3D to have fun
+- reduces the amount of code to write by a lot
+- documentation and examples are amazing too: https://threejs.org/
+
+</v-clicks>
+</div>
+
+<!--
+geometries, lights, materials, etc... are available out of the box
+
+3D can have quite some requirement regarding the physics, maths, what is a quaternion, how to make a matrix rotation etc...most of it is not needed when working with ThreeJS
+
+let's see how to write the same with ThreeJS
+
+[demo of the simple geometry /02 + proper spinning cube]
+
+as you can see, the difference is quite substantial and far more readable (especially if you're used of writting JS)
+
+far better than to read 300 pages of an old book with just text
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+<h2 class="mb-8 !text-4xl">Some cool projects 🚀</h2>
 
 <div class="text-left pl-36">
 
-[Site de Nuxt, framework VueJS](https://v3.nuxtjs.org/)
+[NuxtJS, meta-framework for VueJS](https://v3.nuxtjs.org/)
 
-[Petite animation cool pour son portfolio](https://www.craftz.dog/)
+[Simple and cool animation for any portfolio](https://www.craftz.dog/)
 
-[Render réaliste d'une maison](https://twitter.com/rocha_ycaro/status/1529205485731299335/photo/1)
+[Realistic render of a rental house](https://twitter.com/rocha_ycaro/status/1529205485731299335/photo/1)
 
-[Customization à la volée d'objets](https://infinitemirai.files.wordpress.com/2015/08/vlcsnap-00025.png)
+[Deus Ex game, weapon customization](https://infinitemirai.files.wordpress.com/2015/08/vlcsnap-00025.png)
 
-[Pinbal game basé sur OUIGO](http://letsplay.ouigo.com/)
+[Pinball based on a french train company](http://letsplay.ouigo.com/)
 
-[Le CV interactif de Bruno Simon](https://bruno-simon.com/)
+[Bruno Simon's resume](https://bruno-simon.com/)
 
-Site pour custom ses chaussures Nike
+[Want to design your own iPhone?](https://neal.fun/design-the-next-iphone/)
 
-</div>
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
----
-
-## ThreeJS nous permet ceci
-
-<div class="text-left pt-8">
-<v-clicks>
-
-- beaucoup de choses directement prêtes à l'emploi
-- pas besoin d'être un expert en 3D pour s'amuser
-- éviter d'avoir à écrire 300 lignes de code pour quelque chose de simple
-- une documentation et des exemples SUPER complets
-
-</v-clicks>
 </div>
 
 <!--
-des formes (simples ou moins), des lumières, des caméras, des matériaux etc...
-
-permet d'åvoir du fun rapidement
-
-passer 3 jours à coder une fonction pour pouvoir faire une rotation dans l'espace c'est pas le plus fun
-
-la plupart des principes requirènt des connaissances mathématiques sur les inversions de matrices etc, pas le + friendly non plus quand on doit le faire à la mano
+I already have the links opened in my group tabs
 -->
 
 ---
@@ -176,71 +317,52 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-## Des pré-requis pour commencer avec ThreeJS?
+<h2 class="mb-8 !text-4xl">What do we need exactly?</h2>
 
-<div class="text-left pt-8">
+<div class="flex">
+<img class="h-84" src="https://threejs.org/manual/resources/images/threejs-1cube-with-directionallight.svg" />
+
+<div class="text-left">
 <v-clicks>
 
-- les bases en JavaScript
-- comprendre quelques principes en 3D (représentation spatiale, aliasing, optimisation etc...)
-- les bases de la trigonométrie peuvent être utiles (`sin`, `cos`)
-- des connaissances en gaming + hardware en _nice to have_
+- all the fundamentals are available [here](https://threejs.org/manual/#en/fundamentals)
+- renderer, wrapping all the other parts
+- scene, the tree of our objects
+- mesh 👉 geometry + material
+- geometry, the shape of our object
+- material, the surface properties
+- light, so that we see our objects
+- texture (optional)
 
 </v-clicks>
 </div>
 
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
----
-
-## Que nous faut-il pour avoir un visuel ?
-
-<div class="text-left pt-8">
-<v-clicks>
-
-- une scène
-- une [géométrie](https://www.mathsisfun.com/geometry/images/vertex-edge-face.svg) (tous les vertices + toutes les faces)
-- un matériau sera aussi nécessaire
-- la combo de `géometrie + matériau` nous donnera la surface
-- (parfois) une lumière pour éclairer tout cela
-- une caméra simple
-- on call la méthode `render` (du renderer)
-
-</v-clicks>
 </div>
 
-<!--
-scène -> espace virtuel où on va mettre tous nos éléments
-
-géometrie + matériau: ø
-
-combo: surface se dit d'ailleurs _Mesh_ en anglais
-
-lumière: le besoin de lumière dépend du matériau utilisé, elle n'est pas toujours obligatoire
-
-camera: il y en a une dizaine de différentes, avec chacune ses spécificités, en plus du champ de vision, l'angle etc
-
-on fait attention à que tout soit dans le champ de vision de la caméra
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171349616-5d84267a-0eef-4781-9ba6-9eff6172ad6d.svg
----
-
-<h2 class="absolute right-24">Du concret SVP ! 🙏🏻</h2>
+<style>
+.slidev-layout ul {
+  list-style-type: initial
+}
+</style>
 
 <!--
-je vais vous montrer 3 renders maintenant
+a renderer receives a scene and a camera to render all of them down the tree
 
-regardons comment avoir un objet simple tout d'abord (cône)
+the scene contains lights, geometries, cameras, materials, etc... this hierarchy is containing all
+the children and the info about where they are aiming, where they appear. think of it as a scene in a film.
 
-ensuite une petite galaxie bien sympa
+the mesh helps us know the position and orientation of each cube
 
-bon, pouvoir coder un petit cube c'est bien, mais comment on render quelque chose de + complexe ?
+the geometry will indicate us if it's a sphere, cube, taco, dog, building of a conference etc...
 
-découvrons ensemble Blender
+a material can be shiny, rough, transparent, etc... it's the surface of our object and is basically
+represented by any specifics that you can find in real world
+
+a light is usually needed especially if the object is not glowing by itself
+
+a texture is usually an image or a canvas, for example some patterns of grass/dirt/rock holes
+
+all of those have a lot of variants with customizable properties and all of them are available thanks to ThreeJS
 -->
 
 ---
@@ -248,48 +370,112 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-## Resources intéressantes pour approfondir le sujet
+<img class="mx-auto h-104" src="https://threejs.org/manual/resources/images/threejs-structure.svg" />
 
-<div class="text-left pt-8">
+<div class="mt-8">
+<v-clicks>
 
-- Bruno Simon avec [three.js journey](https://threejs-journey.com/)
-- Andrew Price aka "Blender Guru" avec [sa playlist Youtube](https://www.youtube.com/watch?v=OqMLfMXVhhI&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=16)
-- Roman Klčo aka Polygon Runway avec [ses cours](https://polygonrunway.com/courses) + [chaîne YouTube](https://www.youtube.com/c/PolygonRunway/featured)
+- When do we start?! Any requirements...?
+
+</v-clicks>
+</div>
+
+<!--
+understands the basics of JS (loops, variables)
+
+being able to understand some concepts like aliasing, 3D space and how to navigate there
+
+basics in Maths: Pi, cosinus/sinus
+
+some hardware/gaming knowledge is optional but it may be handy to understand how to optimize the code
+and what is happening internally
+
+[let's go back to some code again and inspect the cube + a fancy GALAXY 🌌]
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
+---
+
+## What about more complex objects? 🤔
+
+<iframe class="mx-auto mt-12" width="560" height="315" src="https://www.youtube-nocookie.com/embed/v0oIFf-NDww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+[show the map] quite a lot of things happening here, right?
+
+it was some promotion for a VueJS conference that I like!
+
+achieving this kind of video with just ThreeJS would take quite some time huh?
+
+[introduction to Blender]
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+# Is it usable in ThreeJS?
+
+### Of course it is, let's import our bike into a webpage! 🚲🌪️
+
+<!--
+show the public the Vue file
+-->
+
+---
+layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+## You want more/where to learn? 🤯
+
+<div class="pt-12 text-left">
+
+- Bruno Simon with [three.js journey](https://threejs-journey.com/)
+- Andrew Price aka "Blender Guru" with [his Donut playlist](https://www.youtube.com/watch?v=OqMLfMXVhhI&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=16)
+- Roman Klčo aka Polygon Runway with [his course](https://polygonrunway.com/courses) + [YouTube channel](https://www.youtube.com/c/PolygonRunway/featured)
 
 </div>
+
+<!--
+we do have custom shaders: https://threejs.org/examples/?q=shaders#webgl_shaders_ocean
+-->
 
 ---
 layout: cover
 preload: false
-background: https://user-images.githubusercontent.com/5133074/171355214-f6e54836-6bd5-4c4e-8216-fe4098dea7b9.svg
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
 ---
 
-<div class="absolute top-12 left-14 text-left">
-  <h2 class="!text-white underline decoration-wavy decoration-1 underline-offset-4 underline-grey-100">Qui suis-je ?</h2>
+<div class="absolute text-left top-12 left-14">
+  <h2 class="!text-white underline decoration-wavy decoration-1 underline-offset-4 underline-grey-100">Your speaker</h2>
 
-  <h3 class="mt-2">Konstantin BIFERT ~ <a href="https://twitter.com/kissu_io" target="_blank" class="text-transparent bg-clip-text bg-gradient-to-tl from-blue-400 to-teal-500 font-bold" alt="konstantin's twitter">@kissu_io</a> (twitter)
+  <h3 class="mt-2">Konstantin BIFERT aka <span class="italic">kissu</span>
 </h3>
 </div>
 
 <div class="flex mt-4">
   <img v-motion :initial="{ x: -200, y: 0, scale: 1, rotate: 0 }" :enter="final"
-    class="h-64 w-48 rounded-lg" src="https://user-images.githubusercontent.com/5133074/171390829-56ff3280-c326-4fd8-ae6b-bed1bdd7238b.jpg"
+    class="w-64 h-64 rounded-lg" src="https://avatars.githubusercontent.com/u/5133074?v=4"
     alt="photo of konstantin" />
 
   <section class="ml-6 text-left">
     <p class="!m-0">
-      <logos-vue/> Consultant frontend <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a> (boîte 🇳🇱)
+      <logos-vue/> Frontend Consultant <a href="https://twitter.com/passionpeopleNL">@passionpeopleNL</a> 🇳🇱
     </p>
     <p class="my-2">
       <logos-nuxt-icon class="inline h-6" />
-      <a href="https://nuxtjs.org/teams" class="ml-2">Ambassadeur Nuxt.js</a>
+      <a href="https://nuxtjs.org/teams" class="ml-2">Nuxt.js Ambassador</a>
     </p>
     <p class="my-2">
       <logos-stackoverflow-icon class="inline mr-2" />
-      <a href="https://stackoverflow.com/users/8816585/kissu">Helper au quotidien sur Stackoverflow</a>
-      <p>🎤  Créateur de contenu + speaker</p>
-      <p>✨ Je kiffe le gaming, les mécas, la tech et le DIY</p>
-      <p><logos-twitter class="h-4" /> Je communique sur Vue, la perf et la 3D !</p>
+      <a href="https://stackoverflow.com/users/8816585/kissu">Stackoverflow daily helper</a>
+      <p>🎥  Launched a YouTube channel 👉 <a href="https://kissu.video" target="_blank" class="font-bold text-transparent bg-clip-text bg-gradient-to-tl from-orange-400 to-pink-500" alt="konstantin's YouTube channel">www.kissu.video</a></p>
+      <p><logos-twitter class="h-4" /> Tweet'ing about cool stuff 👉 <a href="https://twitter.com/kissu_io" target="_blank" class="font-bold text-transparent bg-clip-text bg-gradient-to-tl from-blue-400 to-teal-500" alt="konstantin's twitter">@kissu_io</a></p>
+      <p>✨ I do enjoy mech keyboards, gaming, tech and DIY</p>
     </p>
   </section>
 </div>
