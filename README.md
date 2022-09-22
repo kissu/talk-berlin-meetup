@@ -1,3 +1,3 @@
-# Devconf.pl 2022
+# ABN1
 
-Those slides are related to this talk: https://devconf.pl/speakers/konstantin-bifert/
+Those slides are related to a talk given at ABN Amro on the 22nd September

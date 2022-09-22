@@ -1,5 +1,5 @@
 ---
-title: 'Conference Creative coding in your web browser'
+title: 'Quickstart on 3D principles + MACHINES 🤖'
 theme: seriph
 
 # fonts:
@@ -8,7 +8,7 @@ theme: seriph
 download: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://user-images.githubusercontent.com/5133074/187325015-d1a5592c-a787-416a-a309-c2acb8b04272.jpg
+background: https://images.unsplash.com/photo-1628544106915-0d756c7dadfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4332&q=80
 
 # photo from: https://unsplash.com/photos/qhhp1LwvPSI
 
@@ -25,208 +25,11 @@ lineNumbers: false
 colorSchema: 'dark'
 ---
 
-# Creative coding 🎨
+# 3D principles + ROBOTS 🤖
 
-Let's mesh everything together!
+Nanomachines, son!
 
 <!-- This is a page note btw -->
-
----
-layout: image
-image: https://user-images.githubusercontent.com/5133074/187325041-6a6228ea-b6c1-473c-a893-acb2dd877241.png
----
-
-<span></span>
-
-<!--
-thank you for to our sponsors who made this event possible
--->
-
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex flex-col">
-  <img src="https://user-images.githubusercontent.com/5133074/187825222-d23a0456-a981-4461-a7a9-7972a8881036.png" alt="super boring CRM website" class="w-auto h-96" />
-
-  <p>Damn exciting UI 🤤</p>
-</div>
-
-<!--
-website quite boring, tables tables and tables
-
-pharma but still, could be better
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
----
-
-## What do we have nowadays to make something more fancy?
-
-<div class="pt-8 text-left">
-<v-clicks>
-
-- CSS grid coming with masonry out of the box + subgrid
-- CSS being MORE powerful now ✨ + brand new `:has` (less need for JS)
-- browser interop? yes please!
-- simple yet powerful `accent-color` property
-- color functions, get some insights/help 👉 https://colorjs.io/
-- State of CSS @GoogleIO 🚀 [here](https://youtu.be/Xy9ZXRRgpLk) 🚀
-
-</v-clicks>
-</div>
-
-<!--
-masonry: no need for ugly JS solutions, we have it baked in now
-
-CSS is more friendly to use everyday, more powerful thanks to some baked-in conditionals, cascade layers + container queries
-
-:has bring a whole new world to CSS, enabling some new ways for selection
-
-support getting better for a lot of browsers for all the main CSS features
-
-simple yet brings more native customization in a simple and non-hacky way
-
-COLORS are coming, more VIVID colors!!
-
-color spaces can get quite complex with colors spaces but it enables some totally unseen colors on supported monitors (Apple Display XDR etc...)
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex justify-center">
-  <img src="https://user-images.githubusercontent.com/5133074/187829017-592015c4-a394-4b03-a01f-3df7c7d17f4b.png" alt="nice gradients" class="w-auto h-96" />
-</div>
-
-<!-- damn, look at those gradients -->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex justify-center">
-  <img src="https://user-images.githubusercontent.com/5133074/187829321-33abd9c4-e4d1-4f17-99da-85973b2c1ca8.png" alt="nice gradients" class="w-auto h-96" />
-</div>
-
-<!-- - new fonts with gradients? we have that one too -->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex justify-center">
-  <img src="https://user-images.githubusercontent.com/5133074/187903002-2402f5d4-7e9c-4b7a-b090-c0d09d0878a4.png" alt="new viewport units" class="w-auto h-96" />
-</div>
-
-<!-- no more menu hacks, we have viewport units for those cases too now -->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex justify-center">
-  <video width="640" height="240" controls autoplay loop muted>
-    <source src="https://storage.googleapis.com/web-dev-uploads/video/CZmpGM8Eo1dFe0KNhEO9SGO8Ok23/hgnJfPFUbGlucFegEEtl.mp4" type="video/mp4">
-  </video>
-</div>
-
-<!--
-native transition API, still in the works
-
-MPA, mobile like experience, 0 JS
-
-coming-in hot from the browser, exact syntax/API still in discussion
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<div class="flex justify-center">
-  <img src="/dribble.gif" alt="a GIF showing how to get some inspiration on Dribbble" class="w-auto h-96" />
-</div>
-
-<!--
-exciting? now please refactor the CRM view with something more fancy
-
-get some inspiration on Dribble
-
-best time to be a webdev nowadays haha 💖💖💖
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<h2><a href="https://codepen.io/jtrancozo/full/MeBgxv">Want some cuteness</a>?</h2>
-<br/>
-<div class="flex justify-center">
-  <img src="https://user-images.githubusercontent.com/5133074/187905191-66cfd4b6-2992-4d38-8700-1a86e6d02640.gif" alt="super nice coffee machine done in SVG" class="w-auto h-96" />
-</div>
-
-<!--
-don't forget to give Codepen a ride for some SVG animations
-
-cute coffee, super lightweight and can bring joy/help people wait/etc
--->
-
----
-layout: cover
-background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<h2><a href="https://codepen.io/sdras/full/YNpaoJ">Interactivity</a>?</h2>
-<br/>
-<div class="flex justify-center">
-  <img src="https://user-images.githubusercontent.com/5133074/187904102-c4986cd2-351e-4c28-b1a9-25e6b7db1d20.gif" alt="interactive SVG by Sarah Drasner" class="w-auto h-96" />
-</div>
-
-<!-- this is an app done in VueJS, SVG + interactivity (you can even make it accessible) -->
-
----
-layout: two-cols
-image: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
----
-
-<h2>Any faster approach for that?</h2>
-
-<p><a href="https://greensock.com">GSAP</a> is here to save your day! 💪</p>
-
-<div class="flex justify-start mt-4">
-  <img src="https://user-images.githubusercontent.com/5133074/187834653-ebb826c2-c667-4476-a462-c721f6ba92ec.png" alt="logo of greensock" class="w-auto h-72" />
-</div>
-
-<h3 class="mt-4">Need something more lightweight?</h3>
-<p><a href="https://animejs.com">anime.js</a> is a good one, 100% free</p>
-<p><a href="https://motion.dev/">Motion One</a> by Matt Perry (Framer, Popmotion)</p>
-
-::right::
-
-<!-- <p><a href="https://ironvelvet.studio/works">Iron velvet</a></p> -->
-
-<div class="flex justify-center mt-24">
-  <img src="/iron_velvet.gif" alt="Iron's velvet studio website" class="w-auto h-72" />
-</div>
-
-<!--
-GSAP is amazing, the showcase is dope! just check Iron's velvet studio website
-
-McDonalds or another company, send to galaxy needed to find a burger
-
-Motion One is 4kB or so, but it also uses Web Animation API so it can run if your main thread is blocked to preserve some smooth animations
--->
 
 ---
 layout: cover
@@ -446,18 +249,35 @@ we do have custom shaders: https://threejs.org/examples/?q=shaders#webgl_shaders
 
 ---
 layout: cover
+background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
+---
+
+## Add some IA to it?? 🤯
+
+<div class="pt-12 text-left">
+
+machine learning camera + Dall-e
+
+</div>
+
+<!--
+todo
+-->
+
+---
+layout: cover
 preload: false
 background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
 ---
 
 <div class="absolute text-left top-12 left-14">
-  <h2 class="!text-white underline decoration-wavy decoration-1 underline-offset-4 underline-grey-100">Your speaker</h2>
+  <!-- <h2 class="!text-white underline decoration-wavy decoration-1 underline-offset-4 underline-grey-100">Your speaker</h2> -->
 
   <h3 class="mt-2">Konstantin BIFERT aka <span class="italic">kissu</span>
 </h3>
 </div>
 
-<div class="flex mt-4">
+<div class="flex mt-0">
   <img v-motion :initial="{ x: -200, y: 0, scale: 1, rotate: 0 }" :enter="final"
     class="w-64 h-64 rounded-lg" src="https://avatars.githubusercontent.com/u/5133074?v=4"
     alt="photo of konstantin" />
@@ -475,6 +295,7 @@ background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d
       <a href="https://stackoverflow.com/users/8816585/kissu">Stackoverflow daily helper</a>
       <p>🎥  Launched a YouTube channel 👉 <a href="https://kissu.video" target="_blank" class="font-bold text-transparent bg-clip-text bg-gradient-to-tl from-orange-400 to-pink-500" alt="konstantin's YouTube channel">www.kissu.video</a></p>
       <p><logos-twitter class="h-4" /> Tweet'ing about cool stuff 👉 <a href="https://twitter.com/kissu_io" target="_blank" class="font-bold text-transparent bg-clip-text bg-gradient-to-tl from-blue-400 to-teal-500" alt="konstantin's twitter">@kissu_io</a></p>
+      <p>✒️ Blogging really soon at 👉 <a href="https://kissu.io/" target="_blank" class="font-bold text-transparent bg-clip-text bg-gradient-to-tl from-emerald-400 to-green-500" alt="konstantin's twitter">kissu.io</a></p>
       <p>✨ I do enjoy mech keyboards, gaming, tech and DIY</p>
     </p>
   </section>
