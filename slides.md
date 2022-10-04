@@ -36,7 +36,7 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1-48ad-a222-08a5ba71a3d5.svg
 ---
 
-# I want my 3D now! 🤩🤩
+# Can we have some 3D please? 🤩
 
 <!--
 for 3D on the Web, we use WebGL, it's fast because it's using the GPU so that our users don't wait too long
@@ -225,7 +225,7 @@ background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d
 ### Of course it is, let's import our bike into a webpage! 🚲🌪️
 
 <!--
-show the public the Vue file
+[present troisJS page + whole 3 branches]
 -->
 
 ---
@@ -252,16 +252,22 @@ layout: cover
 background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d-5acd-47d1-977a-062762ce7e95.svg
 ---
 
-## Add some IA to it?? 🤯
+## What about the ROBOTS?? 🤯🤖
 
-<div class="pt-12 text-left">
+<div class="mt-8 text-left">
+<v-clicks>
 
-machine learning camera + Dall-e
+- DALL-E 2.0
+- Midjourney
+- Stable Diffusion
+- Videos
+- etc...
 
+</v-clicks>
 </div>
 
 <!--
-todo
+what do you think about that? will the robots get us all? 🤖🤖🤖
 -->
 
 ---
