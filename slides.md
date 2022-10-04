@@ -8,7 +8,7 @@ theme: seriph
 download: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://images.unsplash.com/photo-1628544106915-0d756c7dadfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4332&q=80
+background: https://images.unsplash.com/photo-1655635643532-fa9ba2648cbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80
 
 # photo from: https://unsplash.com/photos/qhhp1LwvPSI
 
@@ -25,9 +25,9 @@ lineNumbers: false
 colorSchema: 'dark'
 ---
 
-# 3D principles + ROBOTS 🤖
+# Tasty 3D and crunchy robots 🤖
 
-Nanomachines, son!
+They are stealing our jobs!
 
 <!-- This is a page note btw -->
 
@@ -238,7 +238,7 @@ background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d
 <div class="pt-12 text-left">
 
 - Bruno Simon with [three.js journey](https://threejs-journey.com/)
-- Andrew Price aka "Blender Guru" with [his Donut playlist](https://www.youtube.com/watch?v=OqMLfMXVhhI&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=16)
+- Andrew Price aka "Blender Guru" with [his Donut playlist](https://youtu.be/OqMLfMXVhhI?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&t=1418)
 - Roman Klčo aka Polygon Runway with [his course](https://polygonrunway.com/courses) + [YouTube channel](https://www.youtube.com/c/PolygonRunway/featured)
 
 </div>
@@ -260,8 +260,7 @@ background: https://user-images.githubusercontent.com/5133074/171334746-70ecbd5d
 - DALL-E 2.0
 - Midjourney
 - Stable Diffusion
-- Videos
-- etc...
+- Now...? DREAMFUSION!
 
 </v-clicks>
 </div>
